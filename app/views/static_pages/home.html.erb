@@ -6,27 +6,31 @@
   <div class="fullscreen_block"></div>    
     <script>
     gallery_set = [ //Gallery Data
-      {image : "<%= asset_path('test1.jpg') %>", alt : 'Ahi', fit : 'cover', title : "hhh Theme", description: "right here we've got something you gonna love..."},
-      {image : "<%= asset_path('test2.jpg') %>", alt : 'Lorem ipsum', fit : 'cover', title : "Lorem ipsum", description: "lorem ipsum dolor sit amet, consectetur adipiscing."},
-      {image : "<%= asset_path('test3.jpg') %>", alt : 'Dolor sit amet', fit : 'cover', title : "Dolor sit amet", description: "proin molestie pulvinar lorem sit amet placerat."},
-      {image : "<%= asset_path('test4.jpg') %>", alt : 'Ut luctus viv', fit : 'cover', title : "Ut luctus viv", description: "vestibulum ante ipsum primis in faucibus orci luctus."},
-      {image : "<%= asset_path('test5.jpg') %>", alt : 'Duis ante veli', fit : 'cover', title : "Duis ante veli", description: "ut eu urna eu ipsum ultrices dapibus sit amet"},
-      {image : "<%= asset_path('test6.jpg') %>", alt : 'Mauris pretium', fit : 'cover', title : "Mauris pretium", description: "luctus viverra urna non fermentum sit dolor."},
-      {image : "<%= asset_path('test7.jpg') %>", alt : 'Praesent doro', fit : 'cover', title : "Praesent doro", description: "commodo nulla magna, vel dignissim dui aliquet eu."},
-      {image : "<%= asset_path('test8.jpg') %>", alt : 'Curabitur ut', fit : 'cover', title : "Curabitur ut", description: "ante velit, blandit quis lacus eu, tincidunt vulputate."},
-      {image : "<%= asset_path('test9.jpg') %>", alt : 'Vestibulum eget', fit : 'cover', title : "Vestibulum eget", description: "varius interdum mauris sagittis tempor."},
-      {image : 'img/gallery/gallery10.jpg', thmb : 'img/gallery/thmb/gallery10.jpg', alt : 'Curabitur pulvinar', fit : 'cover', title : "Curabitur pulvinar", description: "mauris pretium facilisis nisl nec suscipit."},
 
-      {image : "<%= asset_path('test11.jpg') %>", alt : 'Cras lobortis est', fit : 'cover', title : "Cras lobortis est", description: "quisque in ante ut augue rutrum venenatis urna."},
-      {image : "<%= asset_path('test12.jpg') %>", alt : 'Sed non ante', fit : 'cover', title : "Sed non ante", description: "curabitur mollis aliquet ligula tincidunt venenatis."},
-      {image : "<%= asset_path('test13.jpg') %>", alt : 'Aliquam tincidunt', fit : 'cover', title : "Aliquam tincidunt", description: "integer risus nibh, elementum non blandit suscipit."},
-      {image : "<%= asset_path('test14.jpg') %>", alt : 'Ut nec diam ac', fit : 'cover', title : "Ut nec diam ac", description: "morbi et dignissim tellus, eu porttitor lacus."},
-      {image : "<%= asset_path('test15.jpg') %>", alt : 'Dignissim ac nec', fit : 'cover', title : "Dignissim ac nec", description: "in id pellentesque libero, id luctus enim."},
-      {image : 'img/gallery/gallery16.jpg', thmb : 'img/gallery/thmb/gallery16.jpg', alt : 'Felis id lacus', fit : 'cover', title : "Felis id lacus", description: "class aptent taciti sociosqu ad litora torquent per."},
-      {image : "<%= asset_path('test17.jpg') %>", alt : 'Ut non lobortis', fit : 'cover', title : "Ut non lobortis", description: "phasellus id volutpat neque, ut malesuada erat."},
-      {image : "<%= asset_path('test18.jpg') %>", alt : 'At lobortis massa', fit : 'cover', title : "At lobortis massa", description: "curabitur porta risus et consectetur consectetur."},
-      {image : "<%= asset_path('test19.jpg') %>", alt : 'Id luctus enim', fit : 'cover', title : "Id luctus enim", description: "interdum et malesuada fames ac ante ipsum primis. "},
-      {image : "<%= asset_path('test20.jpg') %>", alt : 'Quisque in ante ut', fit : 'cover', title : "Quisque in ante ut", description: "donec nec facilisis erat, sed porttitor odio."}
+      // THIS IS AN EXAMPLE IN CASE I WANT TO BRING BACK THE NAME/TAGLINE HOVER
+      
+      // {image : "<%= asset_path('test1.jpg') %>", alt : 'Ahi', fit : 'cover', title : "find a way to put username in here", description: "right here we've got something you gonna love..."},
+
+      {image : "<%= asset_path('test1.jpg') %>", fit : 'cover'},
+      {image : "<%= asset_path('test2.jpg') %>", fit : 'cover'},
+      {image : "<%= asset_path('test3.jpg') %>", fit : 'cover'},
+      {image : "<%= asset_path('test4.jpg') %>", fit : 'cover'},
+      {image : "<%= asset_path('test5.jpg') %>", fit : 'cover'},
+      {image : "<%= asset_path('test6.jpg') %>", fit : 'cover'},
+      {image : "<%= asset_path('test7.jpg') %>", fit : 'cover'},
+      {image : "<%= asset_path('test8.jpg') %>", fit : 'cover'},
+      {image : "<%= asset_path('test9.jpg') %>", fit : 'cover'},
+      {image : "<%= asset_path('test10.jpg') %>", fit : 'cover'},
+      {image : "<%= asset_path('test11.jpg') %>", fit : 'cover'},
+      {image : "<%= asset_path('test12.jpg') %>", fit : 'cover'},
+      {image : "<%= asset_path('test13.jpg') %>", fit : 'cover'},
+      {image : "<%= asset_path('test14.jpg') %>", fit : 'cover'},
+      {image : "<%= asset_path('test15.jpg') %>", fit : 'cover'},
+      {image : "<%= asset_path('test16.jpg') %>", fit : 'cover'},
+      {image : "<%= asset_path('test17.jpg') %>", fit : 'cover'},
+      {image : "<%= asset_path('test18.jpg') %>", fit : 'cover'},
+      {image : "<%= asset_path('test19.jpg') %>", fit : 'cover'},
+      {image : "<%= asset_path('test20.jpg') %>", fit : 'cover'}    
     ];
     $('body').fs_gallery({
       fx : 'fade', /*fade, zoom, slide_left, slide_right, slide_top, slide_bottom*/
