@@ -5,71 +5,16 @@
   
       <nav>
           <ul class="menu">
-              <li><a href="javascript:void(0)">GALLERY</a>
-                  <ul class="sub-menu">
-                      <li><a href="index.html">Fullscreen Gallery</a></li>
-                      <li><a href="home_vimeo.html">Vimeo Background</a></li>
-                      <li><a href="home_youtube.html">Youtube Background</a></li>
-                      <li><a href="home_background.html">Image Background</a></li>
-                  </ul>
-              </li>
-              <li><a href="javascript:void(0)">ABOUT</a>
-                  <ul class="sub-menu">
-                    <li><a href="wall.html">Fullwidth Wall</a></li>
-                      <li><a href="about.html">About</a></li>                                                        
-                      <li><a href="grid.html">Grid</a></li>
-                      <li><a href="faq.html">FAQ</a></li>
-                      <li><a href="sitemap.html">Sitemap</a></li>
-                  </ul>                        
-              </li>
-              <li><a href="javascript:void(0)">LOCATION MAP</a>
-                  <ul class="sub-menu">
-                      <li><a href="typography.html">Typography</a></li>
-                      <li><a href="shortcodes.html">Shortcodes</a></li>
-                  </ul>
-              </li>
-              <li><a href="javascript:void(0)">EVENTS/UPDATES</a>
-                  <ul class="sub-menu">
-                      <li><a href="portfolio_grid.html">Grid Portfolio</a></li>
-                      <li><a href="portfolio_masonry.html">Grid Portfolio with Masonry</a></li>
-        <li><a href="portfolio_post_fw.html">Fullscreen Portfolio Post</a></li>
-                      <li><a href="portfolio1.html">Portfolio 1 Column</a></li>
-                      <li><a href="portfolio2.html">Portfolio 2 Columns</a></li>
-                      <li><a href="portfolio3.html">Portfolio 3 Columns</a></li>
-                      <li><a href="portfolio4.html">Portfolio 4 Columns</a></li>
-                      <li><a href="portfolio_post.html">Portfolio Post</a></li>
-                  </ul>
-              </li>
-              <li class="current-menu-parent"><a href="javascript:void(0)">FORUM</a>
-                  <ul class="sub-menu">
-                      <li><a href="gallery_kenburns.html">Kenburns Gallery</a></li>
-                      <li class="current-menu-item"><a href="gallery_grid.html">Grid Gallery</a></li>
-                      <li><a href="gallery_masonry.html">Grid Gallery with Masonry</a></li>
-                  </ul>
-              </li>
-              <li><a href="javascript:void(0)">SHOP</a>
-                  <ul class="sub-menu">
-                      <li><a href="blog_fullscreen.html">Fullscreen</a></li>
-                      <li><a href="blog_post_fw.html">Fullscreen Blog Post</a></li>
-                      <li><a href="blog_full.html">Full Width</a></li>                            
-                      <li><a href="blogpost_full.html">Blog Post</a></li>
-                      <li><a href="javascript:void(0)">With Sidebar</a>
-                          <ul class="sub-menu">
-                              <li><a href="blog_left.html">Left Sidebar</a></li>
-                              <li><a href="blog_right.html">Right Sidebar</a></li>
-                              <li><a href="blogpost_sidebar.html">Blog Post</a></li>
-                          </ul>
-                      </li>
-                  </ul>
-              </li>
-              <li><a href="javascript:void(0)">CONTACT</a>
-                  <ul class="sub-menu">
-                    <li><a href="contact_fullscreen.html">Fullscreen</a></li>
-                      <li><a href="contact.html">Full Width</a></li>                            
-                      <li><a href="contact_sidebar.html">With Sidebar</a></li>
-                  </ul>
-              </li>
-          </ul><!-- .menu -->
+              <li> <%= link_to "HOME", static_pages_home_path %> </li>
+              <li> <%= link_to "GALLERY", users_path %> </li>
+              <li> <%= link_to "ABOUT", static_pages_about_path %> </li>
+              <li> <%= link_to "LOCATION MAP", static_pages_home_path %> </li>
+              <li> <%= link_to "EVENTS/UPDATES", static_pages_events_path %> </li>
+              <li> <%#= link_to "FORUM", static_pages_home_path %> </li>
+              <li> <%#= link_to "SHOP", static_pages_home_path %> </li>
+              <li> <%= link_to "CONTACT", static_pages_contact_path %> </li>
+          </ul>
+              
           <div class="clear"></div>
       </nav>
   </div>

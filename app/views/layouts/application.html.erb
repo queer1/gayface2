@@ -2,26 +2,31 @@
 <html>
 <!-- HEAD -->
 <head>
-<!-- META -->
 <meta charset="utf-8">
 <title>Gayface</title> 
 <meta name="description" content="Gayface"/>
 <meta name="keywords" content="Gayface" />
 <meta name="author" content="Designed and Developed for Gayface by Samantha Radocchia aka iamsamsterdam. The Machine Elf, LLC."/>
-<!-- END META -->
+
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
 <!-- END HEAD -->
 
-<body class="fullscreen_layout">
+<body> <!-- class="fullscreen_layout" just in case i need this part? -->
 
-  <%= render "layouts/nav" %>
+<!-- NAVIGATION BAR -->
+<%= render "layouts/nav" %>
+<!-- END NAVIGATION -->
 
-
-
-  <%= render "layouts/gallery" %>
+<%#= render "layouts/gallery" %>
 
 </body>
+
+
+<footer>
+  <%= render "layouts/footer" %>
+</footer>
+
 </html>
