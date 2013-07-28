@@ -12,7 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require bootstrap
 //= require color_panel
 //= require fs_gallery
 //= require jquery.isotope.min
