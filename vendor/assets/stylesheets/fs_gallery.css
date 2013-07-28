@@ -16,7 +16,7 @@ Version: 0.1
 .fs_gallery_container li {
 	position:absolute;
 	left:0;
-	top:0;
+	top:20px;
 	width:100%;
 	height:100%;
 	overflow:hidden;
@@ -133,13 +133,13 @@ Version: 0.1
 }
 
 /*Caption*/
-.fs_title_wrapper {
+/*.fs_title_wrapper {
 	position:fixed;
 	bottom:79px;
 	width:400px;
 	left:0;
 	padding:15px 20px 18px 20px;
-	border-right:8px solid;
+	border-right:8px solid;*/
 	
 	transition: left 400ms;
 	-webkit-transition: left 400ms;
@@ -186,12 +186,12 @@ Version: 0.1
 .header2top .fs_thmb_viewport {
 	bottom:0px;
 }
-.fs_thmb_wrapper {
+/*.fs_thmb_wrapper {
 	position:relative;
 	overflow:hidden;
 	height:88px;
 	display:block;
-}
+}*/
 
 .fs_thmb_viewport .fs_thmb_list {
 	position:absolute;
