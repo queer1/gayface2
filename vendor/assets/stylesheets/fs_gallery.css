@@ -227,13 +227,13 @@ Version: 0.1
 	opacity: 0.5;
 }
 
-.thumb_toggle a {
+/*.thumb_toggle a {
 	width:18px;
 	padding:26px 0;
 	margin-left:4px;
 	height:17px;
 	background:url(../img/btn_menu.png) no-repeat center;
-}
+}*/
 
 .fs_title_wrapper.fs_hide {
 	left:-458px!important;
@@ -251,9 +251,9 @@ Version: 0.1
 	.fs_title_wrapper {
 		bottom:0px!important;
 	}
-	.thumb_toggle {
+/*	.thumb_toggle {
 		display:none;
-	}
+	}*/
 	
 }
 @media only screen and (min-width: 460px) and (max-width: 760px) {
