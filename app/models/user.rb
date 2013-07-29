@@ -12,6 +12,10 @@ class User < ActiveRecord::Base
     [first_name, last_name].join(" ")
   end
 
+  def location
+    [city, state].join(", ")
+  end
+
 end
 
 

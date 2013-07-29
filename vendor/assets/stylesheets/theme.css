@@ -59,6 +59,7 @@ a:focus, a:hover, a:active, a:visited,
 a:hover span, a:active span, a:visited span {
 	text-decoration:none!important;
 	outline:none!important;
+	color:#7D26CD;
 }
 a:hover { 
 	color:#6e6c74;
@@ -684,7 +685,7 @@ a.content_toggle:hover span.show {
 
 /*FS Grid Gallery*/
 .fs_grid_module {
-	background:#4f4d57;
+	background:white;
 }
 .fs_grid_module:before {
 	content:'';
@@ -704,7 +705,7 @@ a.content_toggle:hover span.show {
 	margin-top:10px;
 }
 .fs_grid_module .grid_gallery-item {
-	width:20%;
+	width:25%;
 	height:auto;
 	display:inline-block;
 	float:left;
@@ -748,7 +749,7 @@ a.content_toggle:hover span.show {
 .image-grid.fs_grid_module .gallery_descr h6 {
 	padding:15px 0;
 	background:#46434E;
-	color:#FFFFFF;
+	color:#7D26CD;
 }
 
 .fs_grid_module .grid_gallery-item:hover {
@@ -807,11 +808,13 @@ a.content_toggle:hover span.show {
 	padding:19px 15px 21px 15px;
 }
 .fs_grid_module .grid_gallery-item .item_hover-title h3 {
-	color:#ffffff;
+	color:white;
 	margin:0;
 }
 .fs_grid_module .grid_gallery-item .item_hover-descr {
-	padding:23px 20px 23px 20px;
+	padding: 5px 5px 5px 5px;
+	background:black;
+	color:white;
 }
 
 /*Fullscreen Featured Slider*/

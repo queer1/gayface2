@@ -18,7 +18,7 @@
 User.delete_all
 User.create(first_name: 'Sam',
   last_name: 'Rad',
-  image_url: 'image1.jpg',
+  image_url: 'test1.jpg',
   sexuality: 'gay',
   city: 'New York',
   state: 'NY',
@@ -32,7 +32,7 @@ User.create(first_name: 'Sam',
 
 User.create(first_name: 'Sam',
   last_name: 'Rad',
-  image_url: 'image2.jpg',
+  image_url: 'test20.jpg',
   sexuality: 'gay',
   city: 'New York',
   state: 'NY',
@@ -46,7 +46,7 @@ User.create(first_name: 'Sam',
 
 User.create(first_name: 'Pop',
   last_name: 'Rad',
-  image_url: 'image3.jpg',
+  image_url: 'test3.jpg',
   sexuality: 'gay',
   city: 'New York',
   state: 'NY',
@@ -60,7 +60,7 @@ User.create(first_name: 'Pop',
 
 User.create(first_name: 'Hehe',
   last_name: 'Rad',
-  image_url: 'image4.jpg',
+  image_url: 'test4.jpg',
   sexuality: 'gay',
   city: 'New York',
   state: 'NY',
@@ -74,7 +74,7 @@ User.create(first_name: 'Hehe',
 
 User.create(first_name: 'Noot',
   last_name: 'Rad',
-  image_url: 'image5.jpg',
+  image_url: 'test5.jpg',
   sexuality: 'gay',
   city: 'New York',
   state: 'NY',
@@ -88,7 +88,7 @@ User.create(first_name: 'Noot',
 
 User.create(first_name: 'Noot',
   last_name: 'Rad',
-  image_url: 'image5.jpg',
+  image_url: 'test5.jpg',
   sexuality: 'gay',
   city: 'New York',
   state: 'NY',
@@ -102,7 +102,7 @@ User.create(first_name: 'Noot',
 
 User.create(first_name: 'Noot',
   last_name: 'Rad',
-  image_url: 'image5.jpg',
+  image_url: 'test5.jpg',
   sexuality: 'gay',
   city: 'New York',
   state: 'NY',
@@ -116,7 +116,7 @@ User.create(first_name: 'Noot',
 
 User.create(first_name: 'Noot',
   last_name: 'Rad',
-  image_url: 'image5.jpg',
+  image_url: 'test6.jpg',
   sexuality: 'gay',
   city: 'New York',
   state: 'NY',
@@ -130,7 +130,7 @@ User.create(first_name: 'Noot',
 
 User.create(first_name: 'Noot',
   last_name: 'Rad',
-  image_url: 'image5.jpg',
+  image_url: 'test7.jpg',
   sexuality: 'gay',
   city: 'New York',
   state: 'NY',
@@ -144,7 +144,7 @@ User.create(first_name: 'Noot',
 
 User.create(first_name: 'Noot',
   last_name: 'Rad',
-  image_url: 'image5.jpg',
+  image_url: 'test8.jpg',
   sexuality: 'gay',
   city: 'New York',
   state: 'NY',
@@ -158,7 +158,7 @@ User.create(first_name: 'Noot',
 
 User.create(first_name: 'Noot',
   last_name: 'Rad',
-  image_url: 'image5.jpg',
+  image_url: 'test9.jpg',
   sexuality: 'gay',
   city: 'New York',
   state: 'NY',
@@ -172,7 +172,7 @@ User.create(first_name: 'Noot',
 
 User.create(first_name: 'Noot',
   last_name: 'Rad',
-  image_url: 'image5.jpg',
+  image_url: 'test10.jpg',
   sexuality: 'gay',
   city: 'New York',
   state: 'NY',
@@ -186,7 +186,7 @@ User.create(first_name: 'Noot',
 
 User.create(first_name: 'Noot',
   last_name: 'Rad',
-  image_url: 'image5.jpg',
+  image_url: 'test11.jpg',
   sexuality: 'gay',
   city: 'New York',
   state: 'NY',
@@ -200,7 +200,7 @@ User.create(first_name: 'Noot',
 
 User.create(first_name: 'Noot',
   last_name: 'Rad',
-  image_url: 'image5.jpg',
+  image_url: 'test12.jpg',
   sexuality: 'gay',
   city: 'New York',
   state: 'NY',
@@ -214,7 +214,7 @@ User.create(first_name: 'Noot',
 
 User.create(first_name: 'Noot',
   last_name: 'Rad',
-  image_url: 'image5.jpg',
+  image_url: 'test13.jpg',
   sexuality: 'gay',
   city: 'New York',
   state: 'NY',
@@ -228,7 +228,7 @@ User.create(first_name: 'Noot',
 
 User.create(first_name: 'Noot',
   last_name: 'Rad',
-  image_url: 'image5.jpg',
+  image_url: 'test14.jpg',
   sexuality: 'gay',
   city: 'New York',
   state: 'NY',
@@ -242,7 +242,91 @@ User.create(first_name: 'Noot',
 
 User.create(first_name: 'Noot',
   last_name: 'Rad',
-  image_url: 'image5.jpg',
+  image_url: 'test15.jpg',
+  sexuality: 'gay',
+  city: 'New York',
+  state: 'NY',
+  occupation: 'Entrepreneur',
+  blurb: 
+    %{<p>
+        When the monsters are sleeping under your bed. They've crawled out 
+        from under into your head. And outside the coldness into your skin
+        and you need someone to keep the light in. ....whoa depressing. 
+      </p>})
+
+User.create(first_name: 'Noot',
+  last_name: 'Rad',
+  image_url: 'test16.jpg',
+  sexuality: 'gay',
+  city: 'New York',
+  state: 'NY',
+  occupation: 'Entrepreneur',
+  blurb: 
+    %{<p>
+        When the monsters are sleeping under your bed. They've crawled out 
+        from under into your head. And outside the coldness into your skin
+        and you need someone to keep the light in. ....whoa depressing. 
+      </p>})
+
+User.create(first_name: 'Noot',
+  last_name: 'Rad',
+  image_url: 'test17.jpg',
+  sexuality: 'gay',
+  city: 'New York',
+  state: 'NY',
+  occupation: 'Entrepreneur',
+  blurb: 
+    %{<p>
+        When the monsters are sleeping under your bed. They've crawled out 
+        from under into your head. And outside the coldness into your skin
+        and you need someone to keep the light in. ....whoa depressing. 
+      </p>})
+
+User.create(first_name: 'Noot',
+  last_name: 'Rad',
+  image_url: 'test18.jpg',
+  sexuality: 'gay',
+  city: 'New York',
+  state: 'NY',
+  occupation: 'Entrepreneur',
+  blurb: 
+    %{<p>
+        When the monsters are sleeping under your bed. They've crawled out 
+        from under into your head. And outside the coldness into your skin
+        and you need someone to keep the light in. ....whoa depressing. 
+      </p>})
+
+User.create(first_name: 'Noot',
+  last_name: 'Rad',
+  image_url: 'test19.jpg',
+  sexuality: 'gay',
+  city: 'New York',
+  state: 'NY',
+  occupation: 'Entrepreneur',
+  blurb: 
+    %{<p>
+        When the monsters are sleeping under your bed. They've crawled out 
+        from under into your head. And outside the coldness into your skin
+        and you need someone to keep the light in. ....whoa depressing. 
+      </p>})
+
+User.create(first_name: 'Noot',
+  last_name: 'Rad',
+  image_url: 'test20.jpg',
+  sexuality: 'gay',
+  city: 'New York',
+  state: 'NY',
+  occupation: 'Entrepreneur',
+  blurb: 
+    %{<p>
+        When the monsters are sleeping under your bed. They've crawled out 
+        from under into your head. And outside the coldness into your skin
+        and you need someone to keep the light in. ....whoa depressing. 
+      </p>})
+
+User.create(first_name: 'Noot',
+  last_name: 'Rad',
+  image_url: 'test15.jpg',
   sexuality: 'gay',
   city: 'New York',
   state: 'NY',

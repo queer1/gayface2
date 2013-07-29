@@ -12,14 +12,14 @@
     <div class="grid_gallery-item">
       <div class="item_hover">
         <div class="item_hover-img">
-          <%= image_tag(user.image_url) %>
+          <%= link_to image_tag(user.image_url), user %>
             <div class="item_hover-fadder"></div>
               <a href="img/gallery/gallery_grid1-1.jpg" rel="prettyPhoto[gallery1]" class="prettyPhoto"></a><a href="portfolio_post.html" class="post_link"></a>
         </div>
         <div class="item_hover-body">
-          <div class="item_hover-title"><h3><%= link_to user.full_name, user %></h3></div>
             <div class="item_hover-descr">
-                Nunc id faucibus orci, in tempus est. Integer tristique augue vitae lacus vestibulum tristique non quis eros. Mauris gravida.
+                <h3><%= link_to user.full_name, user %></h3>
+                <%= user.location %>
             </div>
         </div>
       </div>
