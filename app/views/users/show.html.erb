@@ -6,6 +6,9 @@
 
 <p id="notice"><%= notice %></p>
 
+<!-- GAYFACE PHOTO -->
+<%= image_tag(@user.image_url, :width => "100%", :height => "auto") %>
+
 <!-- USER'S FIRST NAME -->
 <%#= @user.first_name %>
 
@@ -13,16 +16,9 @@
 <%#= @user.last_name %>
 
 <!-- USER'S FULL NAME (First and Last Initial) -->
-<p>
-  <b>Name:</b>
+<h1>
   <%= @user.first_name %> <%= @user.last_name.chars.first %>
-</p>
-
-<!-- GAYFACE PHOTO -->
-<p>
-  <b>Image Url:</b>
-  <%= @user.image_url %>
-</p>
+</h1>
 
 <!-- SEXUAL IDENTIFICATION (How they Identify) -->
 <p>
@@ -50,8 +46,9 @@
 
 <!-- BLURB -->
 <p>
-  <b>What Else?</b>
-  <%= @user.blurb %>
+  <b>Blurb</b>
+  <br>
+  <%= truncate(strip_tags(@user.blurb), length: 250) %>
 </p>
 
 

@@ -8,10 +8,13 @@ Gayface::Application.routes.draw do
 
   get "static_pages/contact", :path => '/contact'
 
-  resources :users  #, :path => '/gallery'
+  resources :users  #, :path => 
+
+  get 'users/:id', to: 'users#show'
 
   get "gallery/index", :path => '/gallery'
 
+  get 'users/index', :path => '/admin'
 
 
 

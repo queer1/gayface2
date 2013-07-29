@@ -816,6 +816,7 @@ a.content_toggle:hover span.show {
 	padding: 5px 5px 5px 5px;
 	background:black;
 	color:white;
+	opacity:.9;
 }
 
 /*Fullscreen Featured Slider*/

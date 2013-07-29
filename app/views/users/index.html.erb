@@ -1,28 +1,17 @@
-<table>
-  <tr>
-    <th>First name</th>
-    <th>Last name</th>
-    <th>Image url</th>
-    <th>Sexuality</th>
-    <th>City</th>
-    <th>State</th>
-    <th>Occupation</th>
-    <th>Blurb</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
-
+<body class="fullscreen_layout">
+  <div class="fullscreen_block"></div>    
+  
+  <table>
 <% @users.each do |user| %>
   <tr>
-    <td><%= user.first_name %></td>
-    <td><%= user.last_name %></td>
-    <td><%= image_tag(user.image_url) %></td>
-    <td><%= user.sexuality %></td>
-    <td><%= user.city %></td>
-    <td><%= user.state %></td>
-    <td><%= user.occupation %></td>
-    <td><%= truncate(strip_tags(user.blurb), length: 140) %></td>
+    <td>First Name<%= user.first_name %></td>
+    <td>Last Name <%= user.last_name %></td>
+    <td>Photo <%= image_tag(user.image_url) %></td>
+    <td>Sexualty<%= user.sexuality %></td>
+    <td>City<%= user.city %></td>
+    <td>State<%= user.state %></td>
+    <td>Occupation<%= user.occupation %></td>
+    <td>Blurb<%= truncate(strip_tags(user.blurb), length: 140) %></td>
     <td><%= link_to 'Show', user %></td>
     <td><%= link_to 'Edit', edit_user_path(user) %></td>
     <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
@@ -33,3 +22,11 @@
 <br />
 
 <%= link_to 'New User', new_user_path %>
+
+ 
+  <div class="header2top"></div>
+</div>
+
+
+
+
