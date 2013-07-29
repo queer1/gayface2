@@ -20,12 +20,12 @@
   <tr>
     <td><%= user.first_name %></td>
     <td><%= user.last_name %></td>
-    <td><%= user.image_url %></td>
+    <td><%= image_tag(user.image_url) %></td>
     <td><%= user.sexuality %></td>
     <td><%= user.city %></td>
     <td><%= user.state %></td>
     <td><%= user.occupation %></td>
-    <td><%= user.blurb %></td>
+    <td><%= truncate(strip_tags(user.blurb), length: 140) %></td>
     <td><%= link_to 'Show', user %></td>
     <td><%= link_to 'Edit', edit_user_path(user) %></td>
     <td><%= link_to 'Destroy', user, method: :delete, data: { confirm: 'Are you sure?' } %></td>
