@@ -7,5 +7,13 @@ class User < ActiveRecord::Base
   with: %r{\.(gif|jpg|png)\Z}i,
   message: 'must be a URL for GIF, JPG or PNG image.'
   }
-  
+
+  def full_name
+    [first_name, last_name].join(" ")
+  end
+
 end
+
+
+
+  

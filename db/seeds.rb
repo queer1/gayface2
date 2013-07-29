@@ -85,3 +85,171 @@ User.create(first_name: 'Noot',
         from under into your head. And outside the coldness into your skin
         and you need someone to keep the light in. ....whoa depressing. 
       </p>})
+
+User.create(first_name: 'Noot',
+  last_name: 'Rad',
+  image_url: 'image5.jpg',
+  sexuality: 'gay',
+  city: 'New York',
+  state: 'NY',
+  occupation: 'Entrepreneur',
+  blurb: 
+    %{<p>
+        When the monsters are sleeping under your bed. They've crawled out 
+        from under into your head. And outside the coldness into your skin
+        and you need someone to keep the light in. ....whoa depressing. 
+      </p>})
+
+User.create(first_name: 'Noot',
+  last_name: 'Rad',
+  image_url: 'image5.jpg',
+  sexuality: 'gay',
+  city: 'New York',
+  state: 'NY',
+  occupation: 'Entrepreneur',
+  blurb: 
+    %{<p>
+        When the monsters are sleeping under your bed. They've crawled out 
+        from under into your head. And outside the coldness into your skin
+        and you need someone to keep the light in. ....whoa depressing. 
+      </p>})
+
+User.create(first_name: 'Noot',
+  last_name: 'Rad',
+  image_url: 'image5.jpg',
+  sexuality: 'gay',
+  city: 'New York',
+  state: 'NY',
+  occupation: 'Entrepreneur',
+  blurb: 
+    %{<p>
+        When the monsters are sleeping under your bed. They've crawled out 
+        from under into your head. And outside the coldness into your skin
+        and you need someone to keep the light in. ....whoa depressing. 
+      </p>})
+
+User.create(first_name: 'Noot',
+  last_name: 'Rad',
+  image_url: 'image5.jpg',
+  sexuality: 'gay',
+  city: 'New York',
+  state: 'NY',
+  occupation: 'Entrepreneur',
+  blurb: 
+    %{<p>
+        When the monsters are sleeping under your bed. They've crawled out 
+        from under into your head. And outside the coldness into your skin
+        and you need someone to keep the light in. ....whoa depressing. 
+      </p>})
+
+User.create(first_name: 'Noot',
+  last_name: 'Rad',
+  image_url: 'image5.jpg',
+  sexuality: 'gay',
+  city: 'New York',
+  state: 'NY',
+  occupation: 'Entrepreneur',
+  blurb: 
+    %{<p>
+        When the monsters are sleeping under your bed. They've crawled out 
+        from under into your head. And outside the coldness into your skin
+        and you need someone to keep the light in. ....whoa depressing. 
+      </p>})
+
+User.create(first_name: 'Noot',
+  last_name: 'Rad',
+  image_url: 'image5.jpg',
+  sexuality: 'gay',
+  city: 'New York',
+  state: 'NY',
+  occupation: 'Entrepreneur',
+  blurb: 
+    %{<p>
+        When the monsters are sleeping under your bed. They've crawled out 
+        from under into your head. And outside the coldness into your skin
+        and you need someone to keep the light in. ....whoa depressing. 
+      </p>})
+
+User.create(first_name: 'Noot',
+  last_name: 'Rad',
+  image_url: 'image5.jpg',
+  sexuality: 'gay',
+  city: 'New York',
+  state: 'NY',
+  occupation: 'Entrepreneur',
+  blurb: 
+    %{<p>
+        When the monsters are sleeping under your bed. They've crawled out 
+        from under into your head. And outside the coldness into your skin
+        and you need someone to keep the light in. ....whoa depressing. 
+      </p>})
+
+User.create(first_name: 'Noot',
+  last_name: 'Rad',
+  image_url: 'image5.jpg',
+  sexuality: 'gay',
+  city: 'New York',
+  state: 'NY',
+  occupation: 'Entrepreneur',
+  blurb: 
+    %{<p>
+        When the monsters are sleeping under your bed. They've crawled out 
+        from under into your head. And outside the coldness into your skin
+        and you need someone to keep the light in. ....whoa depressing. 
+      </p>})
+
+User.create(first_name: 'Noot',
+  last_name: 'Rad',
+  image_url: 'image5.jpg',
+  sexuality: 'gay',
+  city: 'New York',
+  state: 'NY',
+  occupation: 'Entrepreneur',
+  blurb: 
+    %{<p>
+        When the monsters are sleeping under your bed. They've crawled out 
+        from under into your head. And outside the coldness into your skin
+        and you need someone to keep the light in. ....whoa depressing. 
+      </p>})
+
+User.create(first_name: 'Noot',
+  last_name: 'Rad',
+  image_url: 'image5.jpg',
+  sexuality: 'gay',
+  city: 'New York',
+  state: 'NY',
+  occupation: 'Entrepreneur',
+  blurb: 
+    %{<p>
+        When the monsters are sleeping under your bed. They've crawled out 
+        from under into your head. And outside the coldness into your skin
+        and you need someone to keep the light in. ....whoa depressing. 
+      </p>})
+
+User.create(first_name: 'Noot',
+  last_name: 'Rad',
+  image_url: 'image5.jpg',
+  sexuality: 'gay',
+  city: 'New York',
+  state: 'NY',
+  occupation: 'Entrepreneur',
+  blurb: 
+    %{<p>
+        When the monsters are sleeping under your bed. They've crawled out 
+        from under into your head. And outside the coldness into your skin
+        and you need someone to keep the light in. ....whoa depressing. 
+      </p>})
+
+User.create(first_name: 'Noot',
+  last_name: 'Rad',
+  image_url: 'image5.jpg',
+  sexuality: 'gay',
+  city: 'New York',
+  state: 'NY',
+  occupation: 'Entrepreneur',
+  blurb: 
+    %{<p>
+        When the monsters are sleeping under your bed. They've crawled out 
+        from under into your head. And outside the coldness into your skin
+        and you need someone to keep the light in. ....whoa depressing. 
+      </p>})

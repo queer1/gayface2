@@ -1,4 +1,5 @@
 Gayface::Application.routes.draw do
+
   get "static_pages/home", :path => '/home'
 
   get "static_pages/about", :path => '/about'
@@ -7,7 +8,9 @@ Gayface::Application.routes.draw do
 
   get "static_pages/contact", :path => '/contact'
 
-  resources :users, :path => '/gallery'
+  resources :users  #, :path => '/gallery'
+
+  get "gallery/index", :path => '/gallery'
 
 
 
