@@ -91,6 +91,7 @@ ul {
 	top:0;
 	width:100%;
 	z-index:333;
+	opacity:.8;
 }
 .fixed_menu .fullscreen_layout header {
 	top:auto;
