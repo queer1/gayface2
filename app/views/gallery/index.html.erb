@@ -1,8 +1,11 @@
+<%= javascript_include_tag "http://code.jquery.com/jquery-1.9.1.min.js" %>
+<%= javascript_include_tag "masonry.pkgd.min.js" %>  
+
 <% if notice %>
 <p id="notice"><%= notice %></p>
 <% end %>
 
-<div class="fullscreen_block">
+<div class="fullscreen_block" style="padding-top: 69px; min-height: 840px;">
 
 <!-- FILTER NAV -->
   <div class="filter_block">
@@ -21,19 +24,19 @@
   </div><!-- .filter_block -->
 <!-- END FILTER NAV -->
 
-  <div class="fs_grid_module">
+  <div class="fs_grid_module" style="min-height: 582px; position: relative; height: 1760px;">
       
 <!-- USER/IMAGE BLOCK. ITERATE OVER USERS TO GET ALL USERS'S PHOTOS AND PLOP THEM IN THE DESIGN LAYOUT -->
 <!-- WILL NEED FILTERING/PAGINATION -->
   <% @users.each do |user| %>
 
-    <div class="grid_gallery-item">
-      <div class="item_hover">
+    <div class="grid_gallery-item" data-top="-80px" style="opacity: 1; position: absolute; left: 0px; top: 0px;">
+      <div class="item_hover" style="top: 0px;">
         <div class="item_hover-img">
           <%#= image_tag user.image_url %>
-          <%= link_to image_tag(user.image_url, :class => "prettyPhoto"), user %>
+          <%= link_to image_tag(user.image_url, :class => "prettyPhoto", :rel => "prettyPhoto[gallery1]"), user %>
             <div class="item_hover-fadder"></div>
-              <!-- <a href="img/gallery/gallery_grid1-1.jpg" rel="prettyPhoto[gallery1]" class="prettyPhoto"></a> --><a href="portfolio_post.html" class="post_link"></a>
+              <!-- <a href="img/gallery/gallery_grid1-1.jpg" rel="prettyPhoto[gallery1]" class="prettyPhoto"></a> --><!-- <a href="portfolio_post.html" class="post_link"></a> -->
         </div>
         <div class="item_hover-body">
             <div class="item_hover-descr">
@@ -52,27 +55,25 @@
 </div> <!-- .fullscreen_block -->   
 <!-- END TOP  -->
 
-
-
-
-
-
-    <div class="header2top"></div>
+<div class="header2top"></div>
     <!--<div class="header2top"></div>-->
-    <script>
-    $(document).ready(function(){
-    });
-    $(window).load(function(){
-      //$('.fs_grid_module').masonry();
-      $('.fs_grid_module').masonry({
-        itemSelector: '.grid_gallery-item',
-        isAnimated: true
-      });
-      setTimeout("$('.fs_grid_module').masonry()",500);
-    });
-    $(window).resize(function(){
-      $('.fs_grid_module').masonry();
-    });
-    </script>
-  <script src="http://code.jquery.com/ui/1.10.2/jquery-ui.min.js" type="text/javascript"></script>
-    <script type="text/javascript" src="js/theme.js"></script>  
+
+
+<script>
+$(document).ready(function(){
+});
+$(window).load(function(){
+  //$('.fs_grid_module').masonry();
+  $('.fs_grid_module').masonry({
+    itemSelector: '.grid_gallery-item',
+    isAnimated: true
+  });
+  setTimeout("$('.fs_grid_module').masonry()",500);
+});
+$(window).resize(function(){
+  $('.fs_grid_module').masonry();
+});
+</script>
+
+<%= javascript_include_tag "http://code.jquery.com/ui/1.10.2/jquery-ui.min.js" %>
+<%= javascript_include_tag "theme.js" %>    
