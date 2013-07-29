@@ -1,45 +1,66 @@
+ <div class="main_wrapper">
+        <!-- C O N T E N T -->
+        <div class="content_wrapper">
+              <div class="container">
+
+
 <p id="notice"><%= notice %></p>
 
+<!-- USER'S FIRST NAME -->
+<%#= @user.first_name %>
+
+<!-- USER'S LAST NAME -->
+<%#= @user.last_name %>
+
+<!-- USER'S FULL NAME (First and Last Initial) -->
 <p>
-  <b>First name:</b>
-  <%= @user.first_name %>
+  <b>Name:</b>
+  <%= @user.first_name %> <%= @user.last_name.chars.first %>
 </p>
 
+<!-- GAYFACE PHOTO -->
 <p>
-  <b>Last name:</b>
-  <%= @user.last_name %>
-</p>
-
-<p>
-  <b>Image url:</b>
+  <b>Image Url:</b>
   <%= @user.image_url %>
 </p>
 
+<!-- SEXUAL IDENTIFICATION (How they Identify) -->
 <p>
-  <b>Sexuality:</b>
+  <b>Identifies As:</b>
   <%= @user.sexuality %>
 </p>
 
+<!-- CITY -->
+<%#= @user.city %>
+
+<!-- STATE -->
+<%#= @user.state %>
+
+<!-- CITY, STATE  -->
 <p>
-  <b>City:</b>
-  <%= @user.city %>
+  <b> Location: </b>
+<%= @user.city %>, <%= @user.state.upcase %>
 </p>
 
-<p>
-  <b>State:</b>
-  <%= @user.state %>
-</p>
-
+<!-- OCCUPATION -->
 <p>
   <b>Occupation:</b>
   <%= @user.occupation %>
 </p>
 
+<!-- BLURB -->
 <p>
-  <b>Blurb:</b>
+  <b>What Else?</b>
   <%= @user.blurb %>
 </p>
 
 
 <%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Back', users_path %>
+<%= link_to 'Back', users_path %> |
+
+
+
+</div>
+</div>
+</div>
+
