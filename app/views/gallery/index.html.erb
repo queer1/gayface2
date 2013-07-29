@@ -13,10 +13,11 @@
           <ul id="options" class="splitter">
               <li>
                   <ul data-option-key="filter" class="optionset">
-                      <li class="selected"><a data-option-value="*" href="#filter">All Works</a></li>
-                      <li><a title="View all post filed under Portraits" data-option-value=".portraits" href="#filter">Portraits</a></li>
-                      <li><a title="View all post filed under Fashion" data-option-value=".fashion" href="#filter">Fashion</a></li>
-                      <li><a title="View all post filed under Stories" data-option-value=".stories" href="#filter">Stories</a></li>
+                      <li class="selected"><a data-option-value="*" href="#filter">All Locations</a></li>
+                      <li><a title="View all post filed under Portraits" data-option-value=".portraits" href="#filter">New York</a></li>
+                      <li><a title="View all post filed under Fashion" data-option-value=".fashion" href="#filter">Los Angeles</a></li>
+                      <li><a title="View all post filed under Stories" data-option-value=".stories" href="#filter">NJ</a></li>
+                      <li><a title="View all post filed under Fashion" data-option-value=".fashion" href="#filter">San Fran</a></li>
                   </ul>
               </li>
           </ul>
@@ -60,19 +61,19 @@
 
 
 <script>
-$(document).ready(function(){
-});
-$(window).load(function(){
-  //$('.fs_grid_module').masonry();
-  $('.fs_grid_module').masonry({
-    itemSelector: '.grid_gallery-item',
-    isAnimated: true
+  $(document).ready(function(){
   });
-  setTimeout("$('.fs_grid_module').masonry()",500);
-});
-$(window).resize(function(){
-  $('.fs_grid_module').masonry();
-});
+  $(window).load(function(){
+    //$('.fs_grid_module').masonry();
+    $('.fs_grid_module').masonry({
+      itemSelector: '.grid_gallery-item',
+      isAnimated: true
+    });
+    setTimeout("$('.fs_grid_module').masonry()",500);
+  });
+  $(window).resize(function(){
+    $('.fs_grid_module').masonry();
+  });
 </script>
 
 <%= javascript_include_tag "http://code.jquery.com/ui/1.10.2/jquery-ui.min.js" %>
