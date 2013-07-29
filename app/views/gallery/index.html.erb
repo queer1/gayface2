@@ -30,9 +30,10 @@
     <div class="grid_gallery-item">
       <div class="item_hover">
         <div class="item_hover-img">
-          <%= link_to image_tag(user.image_url), user %>
+          <%#= image_tag user.image_url %>
+          <%= link_to image_tag(user.image_url, :class => "prettyPhoto"), user %>
             <div class="item_hover-fadder"></div>
-              <a href="img/gallery/gallery_grid1-1.jpg" rel="prettyPhoto[gallery1]" class="prettyPhoto"></a><a href="portfolio_post.html" class="post_link"></a>
+              <!-- <a href="img/gallery/gallery_grid1-1.jpg" rel="prettyPhoto[gallery1]" class="prettyPhoto"></a> --><a href="portfolio_post.html" class="post_link"></a>
         </div>
         <div class="item_hover-body">
             <div class="item_hover-descr">
