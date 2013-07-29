@@ -14,6 +14,9 @@
 //= require jquery_ujs
 //= require color_panel
 //= require fs_gallery
+//= require jquery.vmap
+//= require jquery.vmap.min
+//= require jquery.vmap.packed 
 //= require jquery.isotope.min
 //= require jquery.themepunch.plugins.min
 //= require jquery.themepunch.revolution.min
@@ -21,5 +24,5 @@
 //= require masonry.pkgd.min
 //= require sorting
 //= require theme
-//= require waypoint 
+//= require waypoint
 //= require_tree . 
