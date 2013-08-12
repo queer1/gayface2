@@ -1,7 +1,6 @@
 Gayface::Application.routes.draw do
 
-  resources :locations
-
+  resources :locations, :path => 'map'
 
   get "static_pages/home", :path => '/home'
 
@@ -18,6 +17,8 @@ Gayface::Application.routes.draw do
   get "gallery/index", :path => '/gallery'
 
   get 'users/index', :path => '/admin'
+
+
 
 
 
