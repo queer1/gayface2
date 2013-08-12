@@ -1,5 +1,8 @@
 Gayface::Application.routes.draw do
 
+  resources :locations
+
+
   get "static_pages/home", :path => '/home'
 
   get "static_pages/about", :path => '/about'

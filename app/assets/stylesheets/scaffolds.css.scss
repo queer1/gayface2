@@ -7,26 +7,25 @@ body {
 }
 
 p, ol, ul, td {
-  font-family: Arial, sans-serif; 
+  font-family: verdana, arial, helvetica, sans-serif;
   font-size: 13px;
   line-height: 18px;
-  text-transform: lowercase;
 }
 
 pre {
-  background-color: #7D26CD;
+  background-color: #eee;
   padding: 10px;
   font-size: 11px;
 }
 
 a {
-  color: #7D26CD;
+  color: #000;
   &:visited {
-    color: #7D26CD;
+    color: #666;
   }
   &:hover {
-    color: #7D26CD;
-    // background-color: #000;
+    color: #fff;
+    background-color: #000;
   }
 }
 
