@@ -15,6 +15,7 @@
 //= require color_panel
 //= require fs_gallery
 //= require jquery.vmap
+//= require jquery.vmap.usa
 //= require jquery.vmap.min
 //= require jquery.vmap.packed 
 //= require jquery.isotope.min

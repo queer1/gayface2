@@ -1,25 +1,44 @@
-<h1>Listing locations</h1>
+<!-- TESTING MAP HERE
+#################################################################
+<title>JQVMap - World Map</title> -->
+<%= stylesheet_link_tag "jqvmap" %>
+<%= javascript_include_tag "jquery.vmap.js" %>  
+<%= javascript_include_tag "jquery.vmap.usa.js" %>  
 
-<table>
-  <tr>
-    <th>User location</th>
-    <th>Region</th>
-    <th></th>
-    <th></th>
-    <th></th>
-  </tr>
+    <script type="text/javascript">
+    jQuery(document).ready(function() {
+        jQuery('#vmap').vectorMap({ map: 'usa_en' });
+    });
+    </script>
+  
 
-<% @locations.each do |location| %>
-  <tr>
-    <td><%= location.user_location %></td>
-    <td><%= location.region %></td>
-    <td><%= link_to 'Show', location %></td>
-    <td><%= link_to 'Edit', edit_location_path(location) %></td>
-    <td><%= link_to 'Destroy', location, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-  </tr>
-<% end %>
-</table>
 
-<br />
 
-<%= link_to 'New Location', new_location_path %>
+    <div id="vmap" style="width: 600px; height: 400px;"></div>
+
+jQuery('#vmap').vectorMap(
+{
+    map: 'world_en',
+    backgroundColor: '#a5bfdd',
+    borderColor: '#818181',
+    borderOpacity: 0.25,
+    borderWidth: 1,
+    color: '#f4f3f0',
+    enableZoom: true,
+    hoverColor: '#c9dfaf',
+    hoverOpacity: null,
+    normalizeFunction: 'linear',
+    scaleColors: ['#b6d6ff', '#005ace'],
+    selectedColor: '#c9dfaf',
+    selectedRegion: null,
+    showTooltip: true,
+    onRegionClick: function(element, code, region)
+    {
+        var message = 'You clicked "'
+            + region 
+            + '" which has the code: '
+            + code.toUpperCase();
+             
+        alert(message);
+    }
+});
