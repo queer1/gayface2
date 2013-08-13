@@ -1,5 +1,4 @@
-<!-- TESTING MAP HERE
-#################################################################
+<!-- #################################################################
 <title>JQVMap - World Map</title> -->
 <%= stylesheet_link_tag "jqvmap" %>
 <%= javascript_include_tag "jquery.vmap.js" %>  
@@ -12,9 +11,9 @@
             map: 'usa_en',
             backgroundColor: '#ffffff', 
             enableZoom: true, 
-            hoverColor: '#c9dfaf',
+            hoverColor: '#000000',
             hoverOpacity: null,
-            selectedColor: '#c9dfaf',
+            selectedColor: '#545454',
             selectedRegion: null,
 
             onRegionClick: function(element, code, region)
@@ -30,11 +29,13 @@
 
 // SETS COLORS OF STATES TO DIFFERENT COLORS BASED ON WHETHER THE 
 // STATE HAS GAYFACE USERS OR NOT
+
+// need to add if-else statement that sets colors 
         jQuery('#vmap').vectorMap('set', 'colors', {al: 'red'});
         jQuery('#vmap').vectorMap('set', 'colors', {ak: 'red'});
         jQuery('#vmap').vectorMap('set', 'colors', {az: 'red'});
         jQuery('#vmap').vectorMap('set', 'colors', {ar: 'red'});
-        
+
     });
     </script>
   
