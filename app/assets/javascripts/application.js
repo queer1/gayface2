@@ -12,7 +12,6 @@
 //
 //= require jquery
 //= require jquery_ujs
-//= require color_panel
 //= require fs_gallery
 //= require jquery.vmap
 //= require jquery.vmap.usa
