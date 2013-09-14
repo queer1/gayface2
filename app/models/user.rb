@@ -8,6 +8,9 @@ class User < ActiveRecord::Base
   message: 'must be a URL for GIF, JPG or PNG image.'
   }
 
+  validates_format_of :state, :with => /\A[a-zA-Z]+\z/,
+    :message => "Only letters allowed"
+
   def full_name
     [first_name, last_name].join(" ")
   end
@@ -16,8 +19,15 @@ class User < ActiveRecord::Base
     [city, state].join(", ")
   end
 
+  def list_states(state)
+    User.state.downcase
+  end 
+
+  def count_frequency(state)
+    User.state.each do |state, count|
+    end
+  end 
+
 end
 
 
-
-  

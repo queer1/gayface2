@@ -23,7 +23,7 @@ Version: 0.1
 	display:block;	
 	opacity: 0;
 	background-position:center!important;
-
+/*	margin-top:60px;*/
 	transition: opacity 1500ms;
 	-webkit-transition: opacity 1500ms;
 }
